@@ -1,0 +1,27 @@
+.flex{
+    display: flex;
+}
+
+.grid{
+    display: grid;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.purple-light{
+    background-color: #ECC9EE;
+}
+
+.purple{
+    background-color: #C9A7EB;
+}
+
+.purple-dark{
+    background-color: #9384D1;
+}
+
+.span2{
+    grid-column: span 2;
+}

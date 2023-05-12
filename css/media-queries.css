@@ -1,0 +1,70 @@
+@media (max-width: 800px){
+    .form-area p{
+        font-size: 1.5vw;
+    }
+    form input{
+        font-size: 1.3vw;
+    }
+}
+
+@media (max-width: 700px){
+    .btn{
+        width: 22%;
+        padding: 0;
+    }
+    form{
+        grid-template-rows: repeat(4,1fr) 2fr 2.5fr 4vw;
+        gap: 2vw;
+    }
+    .span2-later-on{
+        grid-column: span 2;
+    }
+}
+
+@media (max-width: 600px){
+    .form-area h1{
+        font-size: 4vw;
+    }
+    .form-area p{
+        font-size: 1.8vw;
+    }
+    form input{
+        font-size: 1.6vw;
+    }
+}
+
+@media (max-width: 500px){
+    .form-area h1{
+        font-size: 5vw;
+    }
+    .form-area p{
+        font-size: 2.2vw;
+    }
+    form input{
+        font-size: 2vw;
+    }
+    .btn{
+        width: 50%;
+    }
+}
+
+@media (max-width: 400px){
+    form{
+        grid-template-rows: repeat(4,7vw) 11vw 13vw 7vw;
+        margin: 4vw 0;
+        gap: 4vw;
+    }
+    .form-area{
+        padding-top: 10px;
+        width: 90vw;
+    }
+    .form-area h1{
+        font-size: 6vw;
+    }
+    .form-area p{
+        font-size: 3vw;
+    }
+    form input{
+        font-size: 2.8vw;
+    }
+}
